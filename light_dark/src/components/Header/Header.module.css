@@ -3,7 +3,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border: solid 1px black;
-    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.header button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(71, 195, 226);
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.header button:hover {
+  background-color: rgb(30, 130, 255);
 }
