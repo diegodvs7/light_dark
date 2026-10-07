@@ -11,8 +11,6 @@ function App() {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
 
-  console.log( theme);
-
   return (
     <div className={`container ${theme}`}>
       <h1>Meu Projeto React</h1>
@@ -22,7 +20,7 @@ function App() {
     </div>
 
     <div>
-      <Card />
+      <Card theme={theme} />
     </div>
     
     </div>

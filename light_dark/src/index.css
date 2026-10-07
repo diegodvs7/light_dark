@@ -44,3 +44,19 @@ body h1 {
   color: #121212;
   border: 2px solid #cccccc;
 }
+
+.container.dark input {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #777777;
+}
+
+.container.dark input::placeholder {
+  color: #aaaaaa;
+}
+
+.container.light input {
+  background-color: #ffffff;
+  color: #121212;
+  border: 1px solid #ccc;
+}
